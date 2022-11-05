@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="user-scalable=no">
+  <title>GoLife 2.1 - Эмулятор игры &#171Жизнь&#187 и других 2d автоматов</title>
+  <link rel="icon" href="assets/icons/blue.png">
+</head>
+<body>
+  <p style="display: none;" id="canvasNoSupport">
+    <h1 style="color: #ff0000; display: none;">Ваш браузер не поддерживает HTML5!</h1>
+    <button style="display: none;" onclick="window.close();">Закрыть страницу</button> 
+  </p>
+  <canvas id="canvas" width="900" height="449" style="position: fixed; top: 0px; left: 0px; width: 0px;"></canvas>
+</body>
+</html>
+<script src="scripts/downlodAndArrays.js"></script>
+<script src="scripts/mouse.js"></script>
+<script src="scripts/edit.js"></script>
+<script src="scripts/main.js"></script>
+<script src="scripts/editRendering.js"></script>
+<script src="scripts/rule.js"></script>
+
